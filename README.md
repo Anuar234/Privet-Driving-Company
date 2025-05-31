@@ -1,2 +1,18 @@
-# Privet-Driving-Company
-This pet-project aimed to create telegram mini-app for Privet Driving Company, which helps to rent a car with or without personal driver. It is a test app which has certain goals, such as building bot, frontend and backend.
+# Telegram Mini App – Go + HTML
+
+This is a simple Telegram Mini App project.
+
+## Structure
+
+- `frontend/`: HTML file loaded inside Telegram
+- `bot/`: Go bot that sends the Mini App
+- `server/`: (Optional) Backend for handling submitted data
+
+## How to Run
+
+1. Run `go mod tidy` to install dependencies.
+2. Serve the frontend using:
+
+   ```bash
+   cd telegram-mini-app
+   go run bot/main.go
